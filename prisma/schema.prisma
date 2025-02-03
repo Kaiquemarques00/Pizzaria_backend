@@ -65,7 +65,7 @@ model Order {
   table Int
   status Boolean @default(false)
   draft Boolean @default(true)
-  nome String?
+  name String?
 
   @@map("orders")
   items Item[]
